@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{% static 'css/trackpage.css' %}">
+</head>
+<body>
+    <div class="navbar">
+        
+        <div class="logo"> <img src="{% static 'images/logo.jpeg' %}" alt="">Direct-Parcel</div>
+        
+
+        <div class="link">
+            <a class="links" href="{% url 'home' %}">Home</a>
+            <a class="links" href="{% url 'home' %}">About</a>
+            <a class="links" href="{% url 'home' %}">Service</a>
+            <a class="links" href="{% url 'home' %}">Contact</a>
+     
+        </div>
+
+        <form method="POST" action=".">
+            {% csrf_token %}
+            <div class="track">
+                <div class="src-bar">
+                    {{form}}
+                    <button  class="submit" >Track-item</button>
+                </div>
+                
+            </div>
+        </form>
+        
+        
+        
+    </div>
+    
+
+    <div class="track-text">
+        Direct Parcel Package-Tracking 
+        <hr>
+    </div>
+
+    <div class="text-detials">Package Details</div>
+    
+    <table>
+        <tr>
+            <th>Sender's Details</th>
+            <th>Receiver's Details</th>
+            <th>Package Status</th>
+            <th>Date Delivered</th>
+            <th>Estimate Due Date</th>
+            <th>Arrival Country</th>
+        </tr>
+
+       
+        {% for user in details %}
+        <tr>
+ 
+            <td>{{user.senderName}}</td>
+            <td>{{user.receiverName}}</td>
+            <td>pending</td>
+            <td>{{user.deliveryDate}}</td>
+            <td>{{user.duedate}}</td>
+            <td>Ghana</td>
+            
+        </tr>
+        <tr>
+            <td>{{user.senderLocation}}</td>
+            <td>{{user.receiverLocation}}</td>
+            <td>{{user.status}}</td>
+            <td>{{user.deliveryDate}}</td>
+            <td>{{user.duedate}}</td>
+            <td>{{user.country}}</td>
+           
+        </tr>
+
+        <tr>
+            <td>{{user.senderContact}}</td>
+            <td>{{user.receiverContact}}</td>
+            <td>{{user.status}}</td>
+            <td>{{user.deliveryDate}}</td>
+            <td>{{user.duedate}}</td>
+            <td>{{user.country}}</td>
+           
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+       
+
+    <div class="detail-meg">Receiver is going to be called when Package arrive in various country, customers in Ghana should contact for further informations about thier package: +233 507510971 </div>
+    <br><br><br><br><br><br>
+
+
+
+    
+    <div class="ourcompany">
+        <div class="our">our company</div>
+        <div class="com">About  Direct Parcel</div>
+        <div class="com">Our Portfolio</div>
+        <div class="com"> Investor Relations</div>
+        <div class="com">Career</div>
+    </div>
+
+    <div class="ourcompany">
+        <div class="com"> Direct Parcel Blog</div>
+        <div class="com">Corporate Responsibility</div>
+        <div class="com"> Newsroom</div> 
+        <div class="com">Contact</div>
+    </div>
+
+    <div class="ourcompany">
+        <div class="our">MORE FROM Direct-Parcel</div>
+        <div class="com">Direct Parcel Compatible</div>
+        <div class="com">Direct Parcel Developer Portal</div>
+        <div class="com"> Direct Parcel Logistics</div>
+        <div class="com">ShopRunner</div>
+    </div>
+
+
+
+</body>
+</html>

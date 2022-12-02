@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(247, 218, 218);
+}
+
+.navbar{
+    display: block;
+    background-color: rgb(5, 5, 26);
+    height: 100px;
+    border-radius: 5px;
+    border-bottom: none;
+    object-fit: cover;
+}
+
+.navbar .links{
+    font-size: 24px;
+    font-family: Arial;
+    color: rgb(173, 114, 5);
+    margin-left: 40px;
+    transition: color 0.5s;
+    text-decoration: none;
+} 
+.navbar .links:hover{ 
+    color: rgb(133, 247, 133);
+    
+} 
+
+/* .navbar .src{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 0;
+    padding: 10px 15px 10px 15px;
+    border-top: none;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: inline-block;
+    
+    
+} */
+
+.navbar .submit{
+   padding: 10px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   cursor: pointer;
+   background-color: rgb(216, 194, 152);
+   transition: background-color 1s; 
+   
+
+}
+
+
+.navbar .submit:hover{
+    background-color: rgb(230, 173, 67);
+    color: black
+    
+}
+
+
+
+.link{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.track{
+    display: inline-block;
+    
+}
+
+
+
+.logo{
+    display: inline-block;
+    color: rgb(173, 114, 5);
+    font-size: 15px;
+    font-family: Arial;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.logo:hover{
+    color: rgb(13, 58, 110);
+}
+
+
+.navbar form{
+    display: inline-block;
+    margin: 0px;
+}
+
+
+
+.src-bar{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 0px;
+    margin-left: 50px;
+    
+
+}
+
+
+
+.logo img{
+    display: inline-block;
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 35px;
+}
+
+
+.track-text{
+    text-align: center;
+    padding: 100px;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(0, 0, 59);
+    position: relative;
+
+}
+
+
+
+table{
+    width: 1000px;
+    text-align: center;
+    margin-left: 150px;
+   
+}
+
+th{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+th, td{
+    padding: 10px;
+    
+}
+
+td{
+    background-color: rgb(209, 90, 90);
+}
+
+.ourcompany{
+    margin-left: 40px;
+    padding: 50px;
+    display: inline-block;
+}
+
+.our{
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+
+.com{
+    padding: 10px;
+}
+
+
+.text-detials{
+    font-size: 30px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 350px;
+    color: rgb(11, 11, 92);
+
+}
+
+.detail-meg{
+    font-size: 16px;
+    font-family: Arial;
+    margin-left: 100px;
+    margin-top: 50px;
+}
