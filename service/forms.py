@@ -88,8 +88,8 @@ class trackerform(forms.Form):
     id = forms.CharField(
         required=True, widget=forms.TextInput(
             attrs={
-                'placeholder':'Enter-Tracking-Number',
-                'class'      : 'src-bar',       
+                'placeholder':'Enter-Track-ID',
+                'class'      : 'track-src',       
             }
         )   
     )

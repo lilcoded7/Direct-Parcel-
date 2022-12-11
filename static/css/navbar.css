@@ -1,0 +1,39 @@
+.link{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.links{
+    margin: 10px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: white; 
+    background-color: rgb(11, 11, 70); 
+    font-size: 1rem; 
+    font-family: Arial; 
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+.links:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.track-btn{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Arial;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    border: 2px solid orange;
+    background-color: rgb(209, 136, 0);
+}
+
+.spac{
+    width: 100px;
+    display: inline-block;
+    margin-left: auto;
+}

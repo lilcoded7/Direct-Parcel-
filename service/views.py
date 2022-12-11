@@ -81,5 +81,12 @@ def trackgenerator():
     trackid = Package.objects.create(trackingId=id)
     trackid.save()
     
+
+def navbar(request):
+
+
+    return render(request, 'service/navbar.html')
     
+def main(request):
     
+    return render(request, 'service/main.html')

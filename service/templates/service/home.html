@@ -5,168 +5,198 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>International Post</title>
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/navbars.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+
+
 </head>
 <body>
-    <div class="navbar">
-        
-        <div class="logo"> <img src="{% static 'images/logo.jpeg' %}" alt="">Direct Parcel</div>
-        
 
-        <div class="link">
-            <a class="links" href="{% url 'home' %}">Home</a>
-            <a class="links" href="{% url 'home' %}">About</a>
-            <a class="links" href="{% url 'home' %}">Service</a>
-            <a class="links" href="{% url 'home' %}">Contact</a>
-     
-        </div class="">
+    
+    <!-- Image and text -->
+    <nav  class="navbar navbar-light bg-dark">
+        <a  style="color: white !important;"  class= "navbar-brand" href="#">
+            <img style="width: 50px !important; height: 50px !important; margin-left: 10px; border-radius: 25px !important;"  src="{% static 'images/logo.jpeg' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+            International-Post
+        </a>
 
+        <div style="margin:auto" class="link">
+          <a class="links" href="{% url 'home' %}">Home</a>
+          <a class="links" href="{% url 'home' %}">About</a>
+          <a class="links" href="{% url 'home' %}">Service</a>
+          <a class="links" href="{% url 'home' %}">Contact</a>
+          
+      </div>
+      <div class="spac">
+        <a href="{% url 'trackpage' %}" class="track-btn">Track-item</a>
+      </div>
+      
 
-        <div class="track">
-            <button class="submit">
-                <a  style="text-decoration: none; color: rgb(231, 230, 230);" href="{% url 'trackpage' %}">Track-Package-Here</a>
+    </nav>
+ 
+    <div class="imgcontainer">
+        <div class="comname">Welcome To International-Post And Shipping</div>
 
-            </button>
-           
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="{% static 'images/services1.webp' %}" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'images/home-cargo.jpeg' %}" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'images/home-image.jpg' %}" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'images/home-image3.jpg' %}" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'images/home-image1.jpg' %}" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'images/home-image5.jpg' %}" alt=""></div>
+
             
-
-            <!-- <button id="myButton" class="submit" >Register-Here</button> -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
-        
-        
     </div>
-    
-    
-    <div id="slider">
-        <div class="img-box">
-            <img class="service" src="{% static 'images/services1.webp' %}" alt="">
-            <img class="home-image" src="{% static 'images/home-cargo.jpeg' %}" alt="">
-            <img class="home-image1" src="{% static 'images/home-image.jpg' %}" alt="">
-            <img class="home-image2" src="{% static 'images/home-image3.jpg' %}" alt="">
-            <img class="home-image3" src="{% static 'images/home-image1.jpg' %}" alt="">
-            <img class="home-image4" src="{% static 'images/home-image5.jpg' %}" alt="">
-            <div class="comname">Direct Parcel Delivery Service</div>
-            <div class="coment">Lorem ipsum dolor sit amet consectetur, 
-                adipisicing elit. Tenetur delectus, ab iste nisi illo recusandae tempore ut ad aliquam, 
-                hic labore sapiente nemo porro magnam excepturi beatae atque omnis commodi.</div>
-        
-        
-        </div>
 
-    </div>
-    <br>
-    
+    <br><br><br>
 
-    <div id="Logistics" class="our-service">Welcome To Direct Parcel Logistics Solutions</div>
+    <div class="logistics">International-Post Logistics Solutions</div>
     <hr>
 
+    <br><br>
+    
     <div class="image-box">
-        <img class="image" src="{% static 'images/homedelivery.webp' %}" alt="">
-        <img class="images" src="{% static 'images/homedelivery1.jpeg' %}" alt="">
 
-        <br><hr>
+        <div class="img-container">
+            <!-- <img class="image" src="{% static 'images/homedelivery.webp' %}" alt=""> -->
+            <img class="images" src="{% static 'images/homedelivery1.jpeg' %}" alt="">
+        </div>
+        
+        <br>
+        <div class="text-ord">
+        <hr>
+            <p class="home"> Home Dlivery</p>
+            <p>Don't starve, just order, delivering happiness to your home, it's on time or it's on us 🚌 </p>
+            <p class="slogan">A delivery service you can depend on</p>
+        
+        </div>
+        
+    </div>
+    
+    <div class="image-box">
 
-        <p class="home"> Home Dlivery Service</p>
-        <p>Adding Speed to your Deliveries.
-            Speed is the Future of Business.
-            Let your Business Better.</p>
-        <p class="slogan">We deliver package striaght to your door step</p>
+        <div class="img-container">   
+            <!-- <img class="image" src="{% static 'images/port-shipp.jpg' %}" alt=""> --> 
+            <img class="images" src="{% static 'images/cargo.avif' %}" alt="">
+            <!-- <img class="image" src="{% static 'images/cargo.avif' %}" alt="">     -->
+        </div>
+
+        <br>
+
+        <div class="text-ord">
+            <hr>
+            <p class="home"> Cargo Shipping</p>
+            <p>People cannot eat shipping costs. making shipping cost affordable for customers 🚢</p>
+            <p class="slogan">Your lightning-fast delivery partner</p>
+
+        </div>
+       
     </div>
 
     <div class="image-box">
-        <img class="image" src="{% static 'images/port-shipp.jpg' %}" alt="">
-        <img class="images" src="{% static 'images/port-shipp.webp' %}" alt="">
-        <img class="image" src="{% static 'images/cargo.avif' %}" alt="">
 
-        <br><hr>
+        <div class="img-container"> 
+            <!-- <img class="image" src="{% static 'images/airport.jpeg' %}" alt="">   -->
+            <img class="images" src="{% static 'images/flight-shipp.jpg' %}" alt="">   
+        </div> 
+        
 
-        <p class="home"> Cargo Shipping</p>
-        <p>It takes four months to ship food aid and 40 percent of the cost is in the shipping. 
-            People cannot eat shipping costs. 
-            We have had people die when there are surpluses in the markets</p>
-        <p class="slogan">Your lightning-fast delivery partner</p>
+        <br>
+        <div class="text-ord">
+            <hr> 
+            <p class="home"> International-Post &#9992;</p>
+            <p>Time is money, money is time,the faster we deliver the more you make... &#9992; &#x2708;</p>
+            <p class="slogan">Safe. Secure. Simple.</p>
+
+        </div>
+        
     </div>
-   
-    <div class="image-box1">
-        <img class="image" src="{% static 'images/airport.jpeg' %}" alt="">
-        <img class="images" src="{% static 'images/flight-shipp.jpg' %}" alt="">
-        <img class="image" src="{% static 'images/airport.jpeg' %}" alt="">
+    <br><br> 
 
-        <br><hr>
-
-        <p class="home"> Flight Dlivery Service &#9992;</p>
-        <p>Time is money, money is time,
-             the faster we deliver the more you make... &#9992; &#x2708;</p>
-        <p class="slogan">Safe. Secure. Simple.</p>
-    </div>
-    <br><br><br><br>
-
-
-
-    <div class="con">Get in Touch With As &#128222;</div>
-    <br><br> <br> <br>
-    <br>
-    <br>
-
-
-
-
+    <div class="contact-main">Get in Touch With As &#128222;</div>
+    <hr>
+    <br><br>
+    
     <div class="customer"> 
         <img class="cust-image" src="{% static 'images/cus.webp' %}" alt="">
     </div>
-    
-    <div class="customer-services"> 
-        <img class="customer-service" src="{% static 'images/customer-service.jpg' %}" alt="">
-        <div class="customer-text">
-            contac us on whatsApp or call
-            USA   : directparcel.us@gmail.com 
-            Ghana : +233 507510971
+    <!-- <br> -->
+
+    <div class="contactus">
+        <div class="imagecon">
+            <img class="contactimage" src="{% static 'images/customer-service.jpg' %}" alt="">
+            
+            <!-- <img class="customer-service" src="{% static 'images/customer-service5.jpg' %}" alt=""> -->
+            
+            <!-- <img class="customer-service" src="{% static 'images/customer-service2.jpg' %}" alt=""> -->
+            <hr>
         </div>
 
-    </div>
-    <div class="customer-services1"> 
-        <img class="customer-service" src="{% static 'images/customer-service5.jpg' %}" alt="">
-        <div class="customer-text">Happy customers are your biggest advocates and can become your most successful sales team</div>
-    </div>
+        <p class="home"> Contact &#128222;</p>
+        <p>Quicker Response,effective communication, 
+            among customers in every part of the world.
+            call or whatsApp us on
+            <p>email : internationalpost.us@gmail.com</p> 
+            <p>USA   : +1 646-781-7114</p> 
+            <p>Ghana : +233 507510971</p>
+        </p>
+            
+    </div> 
 
-    <div class="customer-services2"> 
-        <img class="customer-service" src="{% static 'images/customer-service2.jpg' %}" alt="">
-        <div class="customer-text">The more advocates you have, the fewer ads you have to buy</div>
-    </div>
-
-    <br><br><br><br>
-
-    <div class="ourcompany">
-        <div class="our">our company</div>
-        <div class="com">About  Direct Parcel</div>
-        <div class="com">Our Portfolio</div>
-        <div class="com"> Investor Relations</div>
-        <div class="com">Career</div>
-    </div>
+    <br><br>
 
     <div class="ourcompany">
-        <div class="com"> Direct Parcel Blog</div>
-        <div class="com">Corporate Responsibility</div>
-        <div class="com"> Newsroom</div>
-        <div class="com">Contact</div>
-    </div>
 
-    <div class="ourcompany">
-        <div class="our">MORE FROM Direct-Parcel</div>
-        <div class="com">Direct Parcel Compatible</div>
-        <div class="com">Direct Parcel Developer Portal</div>
-        <div class="com"> Direct Parcel Logistics</div>
-        <div class="com">ShopRunner</div>
-    </div>
+        <div class="last">
+            <div class="our">our company</div>
+            <div class="com">About  international-Post</div>
+            <div class="com">Our Portfolio</div>
+            <div class="com"> Investor Relations</div>
+            <div class="com">Career</div>
+        </div>  
+        
+             <!-- last -->
+
+        <div class="last">
+            <div class="our">MORE FROM international-Post</div>
+            <div class="com">Direct Parcel Compatible</div>
+            <div class="com">Direct Parcel Developer Portal</div>
+            <div class="com"> Direct Parcel Logistics</div>
+            <div class="com">ShopRunner</div>
+        </div>
+
+        <div class="ourcompany-">
+            <div class="com"> international-Post Blog</div>
+            <div class="com">Corporate Responsibility</div>
+            <div class="com"> Newsroom</div>
+            <div class="com">Contact</div>
+        </div>
+        
+    </div> 
 
 
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="{% static 'js/home.js' %}"></script>
 
-   <div class="watsap">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-
-   </div><br><br><br>
-  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
 </body>
 </html>  
