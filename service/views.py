@@ -45,7 +45,7 @@ def trackitem(request):
             context    = {"details":details}
             return render(request, 'service/trackpage.html', context)
         else:
-            return form 
+            form = trackerform()
     
     else:
         form = trackerform()
