@@ -58,15 +58,18 @@ th{
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
+    color: white;
 }
 
 th, td{
     padding: 2px;
+   
     
 }
 
 td{
     background-color: rgb(209, 90, 90);
+    
 }
 
 
