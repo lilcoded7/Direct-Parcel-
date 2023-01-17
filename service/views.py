@@ -12,7 +12,7 @@ import random
 def home(request):
     
         
-    return render(request, 'docs/home.html')
+    return render(request, 'home.html')
 
 
 
@@ -29,7 +29,7 @@ def Register(request):
         else:
             return redirect('register')
     else:
-        return render(request, 'docs/register.html', {'form': form})
+        return render(request, 'register.html', {'form': form})
 
 
  
@@ -43,14 +43,14 @@ def trackitem(request):
             trackid    = form.cleaned_data['id']
             details    = Package.objects.filter(trackingId=trackid)
             context    = {"details":details}
-            return render(request, 'docs/trackpage.html', context)
+            return render(request, 'trackpage.html', context)
         else:
             form = trackerform()
     
     else:
         form = trackerform()
    
-    return render(request, 'docs/trackpage.html', {'form':form})
+    return render(request, 'trackpage.html', {'form':form})
 
 
 
@@ -70,7 +70,7 @@ def customer(request):
         form = CustomerRegisterform()
     context  = {'form':form}
 
-    return render(request, 'docs/customer.html', context)
+    return render(request, 'customer.html', context)
 
 
 def trackgenerator():
@@ -85,8 +85,8 @@ def trackgenerator():
 def navbar(request):
 
 
-    return render(request, 'docs/navbar.html')
+    return render(request, 'navbar.html')
     
 def main(request):
     
-    return render(request, 'docs/main.html')
+    return render(request, 'main.html')
