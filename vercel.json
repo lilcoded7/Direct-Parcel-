@@ -2,9 +2,9 @@
   "version": 2,
   "builds": [
     {
-      "rewrites":  [
-        {"source": "/(.*)", "destination": "/"}
-      ]
+      "src": "VERCEL/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
       "src": "build_files.sh",
@@ -21,7 +21,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "service/wsgi.py"
+      "dest": "VERCEL/wsgi.py"
     }
   ]
 }
