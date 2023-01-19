@@ -1,0 +1,775 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:  red;
+}
+
+.imgcontainer{
+    width: 100%;
+    height: 550px;
+    background-color: rgba(248, 214, 214, 0.849);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+    
+
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+    display: block;
+    position: relative;
+    background-color: rgba(248, 214, 214, 0.849);
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: rgb(0, 132, 255);
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: rgb(0, 132, 255);
+}
+
+.comname{
+    display: block;
+    /* position:relative; */
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.logistics{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.image-box{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(248, 214, 214, 0.849);
+    /* border: 2px solid red; */
+    display: block;
+    
+}
+
+.image{
+    width: 100%;
+    height: inherit;
+    padding: 5px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    /* left: 3px; */
+ 
+}
+
+.img-container{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 230px;
+    
+}
+
+.images{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    padding: 5px;
+}
+
+.home{
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+    /* color: red; */
+    left: 50px;
+    display: block;
+}
+
+p{
+    font-size: 13px;
+    font-family: Arial;
+    text-align: center;
+    color:black;
+    
+}
+
+.slogan{
+    font-size: 17px;
+    font-family: Arial;
+    text-align: center;
+    color:  orangered;
+    
+}
+
+.contact-main{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* .customer{
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    display: block;
+    background-color: black;
+} */
+
+.cust-image{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.contactus{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: rgba(248, 214, 214, 0.849);
+    /* display: block; */
+    padding: 5px;
+    border: 2px solid white;
+}
+
+.contactimage{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 125px;
+    margin-top: 20px;
+    border-radius: 65px;
+}
+
+.imagecon{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid blue; */
+    align-items: center;
+    background-color: rgba(248, 214, 214, 0.849);
+}
+
+.customer-services{
+    width: 100%;
+    height: 290px;
+    padding: 15px;
+    border: 3px solid  rgba(248, 214, 214, 0.849);
+    border-radius: 5px;
+    align-items: center;
+    /* display: flex; */
+    background-color: white;
+    /* position: absolute; */
+}
+
+.customer-service{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: 10px;
+    padding: center;
+    position: absolute;
+    display: flex;
+    /* visibility: ; */
+} 
+
+.cus-img-con{
+    width: 100%;
+    height: 260px;
+    border: 1px solid  rgba(248, 214, 214, 0.849);
+    border-radius: 10px;
+    align-items: top;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    background-color: rgba(248, 214, 214, 0.849);
+    
+}
+
+.cusimge{  
+    border: 2px solid green;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.home{
+    color: rgb(117, 110, 2);
+}
+
+p{
+    font-size: 0.9rem;
+    font-family: Arila;
+}
+
+.customer-text{ 
+    font-size: lrem;
+    /* font-family: Arial; */
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+    text-align: auto;
+    border: 2px solid red;
+    display: block;
+}
+
+
+.ourcompany{
+    width: 100%;
+    padding: 50px;
+    display: block;
+    background-color: rgb(43, 43, 83);
+}
+
+.our{
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.com{
+    padding: 10px;
+}
+
+/* tablet screen-version */
+
+@media all and (min-width:768px){
+
+    .image-box{
+        width: 100%;
+        height: 650px;
+        border-radius: 10px;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: rgba(248, 214, 214, 0.849);
+        /* border: 2px solid red; */
+        display: block;
+        
+    }
+    
+    .image{
+        width: 100%;
+        height: 20%;
+        padding: 5px;
+        object-fit: cover;
+        border-radius: 10px;
+        /* border: 2px solid red; */
+        /* left: 3px; */
+     
+    }
+    
+    .img-container{
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: 230px;
+        
+    }
+    
+    .images{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 10px;
+        display: block;
+        padding: 5px;
+    }
+    
+    .text-ord{
+        margin-top: 100px;
+    }
+
+    .home{
+        font-size: 30px;
+        font-family: Arial;
+        text-align: center;
+        /* color: red; */
+        /* left: 50px; */
+        display: block;
+    }
+    
+    p{
+        font-size: 13px;
+        font-family: Arial;
+        text-align: center;
+        color:black;
+        
+    }
+    
+    .slogan{
+        font-size: 17px;
+        font-family: Arial;
+        text-align: center;
+        color:  orangered;
+        
+    }
+
+    /* .customer{
+        width: 100%;
+        height: 700px;
+        /* padding: 45px; */
+        /* display: block; */
+        /* background-color: black; */
+    /* } */ 
+
+    /* .customer-main{
+        background-color: red;
+
+    } */
+    .cust-image{
+        width: 50%;
+        height: 400px;
+        object-fit: cover;
+        padding: 10px;
+        /* border-radius: 10px; */
+        /* border: 2px solid orange  ; */
+    }
+
+    .contactus{
+        width: 100%;
+        height: 550px;
+        border-radius: 10px;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        background-color: white;
+        display: block;
+        padding: 5px;
+        border: 2px solid white;
+    }
+
+    .imagecon{
+        width: 100%;
+        height: 200px;
+        /* border: 2px solid blue; */
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(248, 214, 214, 0.849);;
+
+    }
+
+    .contactimage{
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        position: relative;
+        border-radius: 5px;
+        margin-left: 100px;
+        margin-top: 20px;
+        border-radius: 65px;
+        justify-content: center;
+        /* border: 2px solid red; */
+    }
+
+    p{
+        padding: 3px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    .customer-service{
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        position: relative;
+        border-radius: 5px;
+        margin-left: 100px;
+        margin-top: 20px;
+        border-radius: 65px;
+        justify-content: center;
+    }
+
+    .cust-image{
+        width: 100%;
+        height: 470px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .ourcompany{
+        width: 100%;
+        padding: 50px;
+        display: block;
+        background-color: rgb(43, 43, 83);
+    }
+
+    .our{
+        padding: 10px;
+        font-size: 1.5rem;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    .last{
+        display: inline-block;
+        padding-right: 30px;
+    }
+
+    .com{
+        padding: 10px;
+    }
+
+    .ourcompany-{
+        display: inline-block;
+        visibility: hidden;
+        /* padding-right: 30px; */
+
+    }
+
+    .contactus{
+        width: 100%;
+        height: 550px;
+        border-radius: 10px;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        background-color: rgba(248, 214, 214, 0.849);
+        display: block;
+        padding: 5px;
+        border: 2px solid white;
+    }
+    
+    .contactimage{
+        width: 150px;
+        height: 150px;
+        /* object-fit: cover; */
+        /* position: relative; */
+        border-radius: 5px;
+        margin-left: 45%;
+        /* margin-top: 20px; */
+        border-radius: 75px;
+    }
+    
+    .contactus{
+        width: 100%;
+        height: 650px;
+        border-radius: 30px;
+        /* align-items: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        background-color: white;
+        display: block;
+        padding: 5px;
+        border: 2px solid white; */ 
+    }
+
+    .imagecon{
+        width: 100%;
+        height: 200px;
+        /* border: 2px solid blue; */
+        align-items: center;
+        background-color: rgba(248, 214, 214, 0.849);
+       
+    
+    }
+    
+    .customer-services{
+        width: 100%;
+        height: 290px;
+        padding: 15px;
+        border: 3px solid  rgba(248, 214, 214, 0.849);
+        border-radius: 5px;
+        align-items: center;
+        display: flex;
+        background-color: white;
+        /* position: absolute; */
+    }
+    
+    .customer-service{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50px;
+        margin: 10px;
+        padding: center;
+        position: absolute;
+        display: none;
+        /* visibility: ; */
+    } 
+
+
+     
+}
+
+/* desktop screen  */
+
+
+@media all and (min-width: 1280px){
+
+    .imgcontainer{
+        width: 100%;
+        height: 550px;
+        background-color: rgba(248, 214, 214, 0.849);
+        display: block;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        position: relative;
+        
+    
+    }
+    
+    .swiper{
+        width: 100%;
+        height: 600px;
+        display: block;
+        position: relative;
+        background-color: rgba(248, 214, 214, 0.849);
+    }
+    
+    .swiper-slide img{
+        width: 100%;
+        height: 450px;
+        position: relative;
+        
+    }
+    
+    .swiper .swiper-button-prev, .swiper .swiper-button-next{
+        color: rgb(0, 132, 255);
+    }
+    
+    .swiper .swiper-pagination-bullet-active{
+        background: rgb(0, 132, 255);
+    }
+    
+
+    .comname{
+        display: block;
+        /* position:relative; */
+        font-size: 3.5rem;
+        font-weight: bold;
+        margin: 50px;
+        text-align: center;
+        font-style: italic;
+    }
+    
+    .logistics{
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+        font-style: italic;
+
+    }
+
+    .image-box{
+        width: 30%;
+        height: 500px;
+        border-radius: 10px;
+        align-items: center;
+        margin: 14px;
+        /* margin-bottom: 10px; */
+        padding: 20px;
+        /* margin-top: 20px; */
+        background-color: rgba(248, 214, 214, 0.849);
+        border: none;
+        display: inline-block;
+        
+    }
+
+    .img-container{
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: 100px;
+        
+    }
+
+    .text-ord{
+        margin-top: 10px;
+    }
+
+    
+    .image{
+        width: 100%;
+        height: inherit;
+        padding: 5px;
+        object-fit: cover;
+        border-radius: 10px;
+        /* border: 2px solid red; */
+        /* left: 3px; */
+     
+    }
+    
+    .img-container{
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: 230px;
+        
+    }
+    
+    .images{
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+        border-radius: 10px;
+        display: block;
+        padding: 5px;
+    }
+    
+    .home{
+        font-size: 30px;
+        font-family: Arial;
+        text-align: center;
+        /* color: red; */
+        left: 50px;
+        display: block;
+    }
+    
+    p{
+        font-size: 13px;
+        font-family: Arial;
+        text-align: center;
+        color:black;
+        padding: none;
+        margin: none;
+        
+    }
+    
+    .slogan{
+        font-size: 17px;
+        font-family: Arial;
+        text-align: center;
+        color:  orangered;
+        
+    }
+
+    .contact-main{
+        font-size: 2.5rem;
+        padding: 20px;
+        color: orange;
+
+    }
+
+    .customer{
+        display: inline-block;
+        margin-left: 5%;
+        height: 400px;
+        width: 45%;
+        /* border: 2px solid red; */
+    }
+
+    .cust-image{
+        width: 100%;
+        height: inherit;
+        /* margin-left: 30px; */
+        /* object-fit: cover; */
+        border-radius: 5px;
+        display: block;
+    }
+
+    p{
+        padding: 0px;
+        margin-top: none;
+    }
+
+    .contactus{
+        /* margin-left: 30%; */
+        height: 400px;
+        width: 45%;
+        top: 1680px;
+        display: inline-block;
+        margin-bottom: 30%;
+        position: absolute;
+        margin: 20px;
+        
+    }
+    
+    .contactimage{
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        position: relative;
+        /* margin-left: 125px; */
+        margin-left: 220px;
+        margin-top: 20px;
+        border-radius: 65px;
+    }
+
+    .imagecon{
+        width: 100%;
+        height: 170px;
+        /* border: 2px solid blue; */
+        align-items: center;
+        background-color: rgba(248, 214, 214, 0.849);
+    }
+
+    .ourcompany{
+    width: 100%;
+    padding: 50px;
+    display: block;
+    background-color: rgb(43, 43, 83);
+    }
+
+    .ourcompany-{
+        display: inline-block;
+    }
+
+    .our{
+        padding: 10px;
+        font-size: 16px;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    .com{
+        padding: 10px;
+    }
+
+
+    
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
