@@ -1,4 +1,5 @@
 from django.db import models 
+import random
 
 
 
@@ -18,6 +19,14 @@ class Package(models.Model):
     duedate           = models.DateField(blank=True, null=True)
     status            = models.CharField(max_length=20)
     country           = models.CharField(max_length=20)
+
+
+    def seve(self, *args, **kwargs):
+        randnum = random.randint(0000, 9999)
+        code = 'LR'
+        self.trackingId = str(randnum,code)
+        super(Package, self).save(*args, **kwargs)
+
 
     def __str__(self):
         return self.senderName

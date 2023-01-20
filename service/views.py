@@ -42,6 +42,8 @@ def trackitem(request):
         if form.is_valid():
             trackid    = form.cleaned_data['id']
             details    = Package.objects.filter(trackingId=trackid)
+            
+           
             context    = {"details":details}
             return render(request, 'service/trackpage.html', context)
         else:
