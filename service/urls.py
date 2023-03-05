@@ -12,7 +12,8 @@ urlpatterns = [
     path('trackpage/', views.trackitem, name='trackpage'),
     path('registercustomer/', views.customer, name='customer'),
     path('navbar/', views.navbar, name='navbar'),
-    path('main/', views.main, name='main')
+    path('main/', views.main, name='main'),
+    path('payment/', views.payment, name='payment')
 
 ]
 

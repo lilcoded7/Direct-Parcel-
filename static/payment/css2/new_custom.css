@@ -1,0 +1,600 @@
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+
+/* HEADER*/
+
+.main-header .header-top a:hover {
+    color: #EF5E15 !important;
+}
+
+.main-header .header-top a:hover span {
+    color: #EF5E15 !important;
+}
+
+.social-links ul {
+    margin-bottom: 0;
+}
+
+.main-menu .navigation>li>a {
+    color: #565656 !important;
+}
+
+.main-menu .navigation>li {
+    padding: 25px 30px 25px !important;
+}
+
+.main-menu .navigation>li:hover a {
+    color: #EF5E15 !important;
+}
+
+.main-menu .navigation>li.current>a:after {
+    background: #EF5E15 !important;
+}
+
+.main-nav__right {
+    padding: 33px 0 33px !important;
+}
+
+.main-header .number a {
+    padding: 17px 54px !important;
+    background: #ef5e15 !important;
+}
+
+.sticky-header .main-menu .navigation>li {
+    padding: 20px 0 !important;
+}
+
+.mobile-menu .nav-logo {
+    padding: 45px 25px 30px !important;
+}
+
+.mobile-menu .social-links li a span {
+    color: #EF5E15 !important;
+}
+
+.nav-outer .mobile-nav-toggler {
+    padding: 20px 0 !important;
+    margin-right: 0 !important;
+}
+
+.mobile-menu .social-links {
+    padding: 10px 25px !important;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-header .number {
+    display: block !important;
+}
+
+#contact_form {
+    background: #0a1e31 !important;
+}
+
+#contact_form .paynow {
+    background-color: #ffffff2e;
+    padding: 2em;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#contact_form .paynow h1 {
+    font-size: 2em;
+    color: #d95c0f;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+#contact_form .paynow .form-group {
+    padding: 1em 0;
+}
+
+#contact_form #category {
+    margin: 0 auto !important;
+}
+
+#contact_form .btn.submit_btn {
+    background: #ef5e15 none repeat scroll 0 0 !important;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    float: none;
+}
+
+#contact_form .form-control:focus {
+    border: 2px solid #EF5E15;
+    box-shadow: 0px 0px 5px 1px #EF5E15;
+}
+
+.home-section-home {
+    padding: 5em 0 !important;
+}
+
+.home-section2 {
+    padding: 2em 0 !important;
+}
+
+.home-section-overlay2 {
+    background: transparent !important;
+    display: none;
+}
+
+.hero-box {
+    background: #0a1e31 !important;
+    word-break: break-all;
+}
+
+.hero-headers h1,
+.hero-headers h2 {
+    color: #EF5E15 !important;
+}
+
+.hero-headers p {
+    color: #FFF !important;
+}
+
+.hero-headers a {
+    background: #EF5E15;
+    border: 2px solid #EF5E15;
+}
+
+.hero-headers img {
+    border-radius: 5px;
+}
+
+.offer-section-heading {
+    margin: 3em 0 1em !important;
+}
+
+.offer-section {
+    padding-bottom: 0px !important;
+}
+
+.offer-section .container {
+    border-top: 1px solid #d2d2d2;
+}
+
+.offer-section .offers {
+    /*height:45vh; max-height: 45vh;*/
+    padding-top: 3em !important;
+    padding-bottom: 2em !important;
+}
+
+.offer-section .offers i {
+    color: #ef5e15 !important;
+}
+
+.offer-section .offer_last {
+    border-bottom: 1px solid #e5e5e5 !important;
+}
+
+footer::before {
+    background: none;
+}
+
+.footer_menu .fa,
+.footer_contact .fa {
+    color: #ef5e15;
+}
+
+.f1 {
+    padding: 2em 0;
+}
+
+.btn.know_btn {
+    background: #EF5E15;
+    margin-left: 0;
+}
+
+.btn.know_btn:hover,
+.btn.know_btn:focus {
+    background: #0a1e3100;
+    color: #ef5e15;
+    border: 1px solid #ef5e15;
+}
+
+.footer_top {
+    margin-bottom: 5em;
+}
+
+.footer_item p {
+    font-size: 1.1em;
+}
+
+.footer_item .list-unstyled>li a {
+    font-size: 1.1em;
+}
+
+.footer_item .list-unstyled>li a:hover {
+    color: #EF5E15;
+}
+
+.footer_item b {
+    color: #EF5E15;
+}
+
+.list-inline.footer_social_icon li:hover a span {
+    color: #EF5E15 !important;
+}
+
+.footer_bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_bottom a {
+    color: #ef5e15;
+}
+
+/*FAQ*/
+
+.main-title {
+    font-size: 1.5em;
+    color: #EF5E15 !important;
+}
+
+.faqdiv p {
+    font-size: 1.3em;
+    text-align: justify;
+    padding-left: 1.3em;
+}
+
+.faqdiv a {
+    background: transparent !important;
+    color: #EF5E15 !important;
+    border: none !important;
+}
+
+.faqdiv i {
+    color: #EF5E15;
+}
+
+.faqdiv ul {
+    padding-left: 4em;
+}
+
+.faqdiv ul li {
+    list-style: square;
+    color: #FFF;
+    font-size: 1.3em;
+}
+
+.faqdiv .sub-title {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.faqdiv span {
+    font-size: 1.5em;
+    color: #FFF;
+    padding-left: 1.2em;
+}
+
+/* USE */
+
+.usediv ol {
+    padding-left: 3em;
+}
+
+.usediv ol li {
+    color: #FFF;
+    font-size: 1.3em;
+    list-style: decimal;
+    padding: 0.5em 0;
+}
+
+.usediv a {
+    background: transparent !important;
+    color: #EF5E15 !important;
+    border: none !important;
+}
+
+/* CONTACT */
+
+.contacts p a {
+    background: transparent !important;
+    color: #EF5E15 !important;
+    border: none !important;
+}
+
+/* TESTIM */
+
+#testimonial {
+    padding: 2em 0 !important;
+}
+
+#testimonial p {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+#testimonial .main-title {
+    font-size: 1.2em !important;
+    text-align: left !important;
+}
+
+#testimonial h2 {
+    margin-top: 10px !important;
+}
+
+.logo-box .logo img {
+    width: 250px;
+}
+
+.landscape {
+    display: none !important;
+}
+
+/* LOGIN */
+
+.loginform {
+    background-color: #ffffff2e;
+    padding: 2em 3em !important;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.loginform h4 {
+    width: 100%;
+    color: #EF5E15;
+}
+
+.loginform p {
+    color: #FFF;
+    width: 100%;
+}
+
+.loginform a {
+    color: #EF5E15;
+}
+
+.loginform a:hover {
+    color: #ef5e15c7;
+}
+
+.loginform .form-group {
+    width: 100%;
+    display: inherit !important;
+}
+
+.loginform .form-group label {
+    color: #FFF;
+}
+
+.loginform .form-group input {
+    width: 80% !important;
+}
+
+.loginform .form-group button {
+    margin: 1em auto !important;
+}
+
+/*SIGNUP */
+
+#ssss {
+    text-align: center;
+}
+
+#ssss img {
+    border-radius: 4px;
+}
+
+.register h4 {
+    color: #EF5E15;
+}
+
+.register p a {
+    color: #EF5E15;
+}
+
+.register p a:hover {
+    color: #ef5e15c7;
+}
+
+.register .form-group label {
+    color: #FFF;
+    width: 25%;
+    vertical-align: middle;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.register .form-group input,
+.register .form-group select {
+    width: 70% !important;
+}
+
+.register .form-group button {
+    margin: 1em auto !important;
+}
+
+#contact_form #category,
+#contact_form #state,
+#contact_form #city,
+#contact_form #admission_no {
+    font-size: 1em !important;
+}
+
+/*INDEX*/
+
+.row.equal-cols {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.equal-cols:before,
+.row.equal-cols:after {
+    display: block;
+}
+
+.row.equal-cols>[class*='col-'] {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.row.equal-cols>[class*='col-']>* {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width:375px) {
+    .logo-box .logo img {
+        width: 230px;
+    }
+    .hero-box {
+        padding: 40px 20px !important;
+    }
+    .hero-headers h1,
+    .hero-headers h2 {
+        font-size: 1.8em;
+    }
+    .faqdiv .sub-title {
+        font-size: 1.4em !important;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .hero-headers h1,
+    .hero-headers h2 {
+        font-size: 1.6em !important;
+    }
+    .faqdiv .sub-title {
+        font-size: 1.3em !important;
+    }
+    .logo-box .logo img {
+        width: 200px;
+    }
+    .nav-outer .mobile-nav-toggler {
+        padding: 15px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #mymenu:hover {
+        color: #EF5E15 !important;
+    }
+    .offer-section .offers {
+        border-bottom: 1px solid #e5e5e5 !important;
+    }
+    /*.offer-section .offers {height:auto; max-height: auto;}*/
+    .footer_item {
+        text-align: center;
+        margin-top: 3em;
+    }
+    .footer_item .logo {
+        margin: 0 auto 20px;
+    }
+    .footerlogo {
+        margin-bottom: 6em;
+    }
+    .footer_item p {
+        text-align: center;
+    }
+    .footer_bottom {
+        position: absolute;
+        bottom: 0;
+    }
+    .footer_menu {
+        text-align: left;
+    }
+    .footer_contact {
+        margin-left: 1.5rem !important;
+    }
+    .footer_contact li,
+    .footer_contact li p {
+        text-align: left !important;
+    }
+    #contact_form form.form-inline .form-group {
+        width: 100% !important;
+    }
+    #contact_form form.form-inline .form-group textarea {
+        height: 15%;
+    }
+    .loginform {
+        margin: 0 1em !important;
+    }
+    .loginform .form-group label {
+        display: none;
+    }
+    .loginform .form-group input {
+        width: 100% !important;
+    }
+    .register .form-group label {
+        width: 100%;
+        text-align: left;
+    }
+    .register .form-group input,
+    .register .form-group select {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 1199px) {
+    .ff2 {
+        margin-left: 0 !important;
+    }
+    .loginform .form-group label {
+        display: none;
+    }
+    .loginform .form-group input {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width: 1199px) {
+    .form-inline .form-group {
+        width: 100%;
+    }
+    #contact_form .form-inline .form-control {
+        width: 100% !important;
+    }
+    #contact_form form.form-inline .form-group {
+        width: 100% !important;
+    }
+    #contact_form form.form-inline .form-group textarea {
+        height: 15%;
+    }
+    /*.offer-section .offers {max-height:25vh;}*/
+    .ff2 {
+        margin-left: 0 !important;
+    }
+    .loginform .form-group label {
+        display: none;
+    }
+    .loginform .form-group input {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 1024px) and (hover: none) and (pointer: coarse) {
+    header,
+    div.container,
+    footer,
+    section {
+        display: none !important;
+    }
+    .landscape {
+        display: table !important;
+    }
+}
+
+/*
+
+3381C9 - blue
+EF5E15 - Orange
+
+*/

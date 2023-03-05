@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'service',
     "corsheaders",
+    'paystack',
 ]
 
 MIDDLEWARE = [
@@ -87,9 +88,9 @@ DATABASES = {
         'ENGINE'   : 'django.db.backends.postgresql',
         'NAME'     : 'railway',
         'USER'     : 'postgres',
-        'PASSWORD' : 'r6frhdanpu5brJ9KYuIR',
-        'HOST'     : 'containers-us-west-66.railway.app',
-        'PORT'     : '5922',
+        'PASSWORD' : 'OQuGZGLXxNLiY6hiHtF1',
+        'HOST'     : 'containers-us-west-95.railway.app',
+        'PORT'     : '5681',
     }
 }
 

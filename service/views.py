@@ -14,6 +14,12 @@ def home(request):
         
     return render(request, 'service/home.html')
 
+def payment(request):
+
+    return render(request, 'service/index.html')
+
+
+
 
 
 def Register(request):
