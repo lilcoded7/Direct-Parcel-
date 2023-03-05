@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-p4b%5b_%j5+#n1b#2#lc=ymq@7%724*qwnsu+rx1@w*eq-i=2%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True 
 
-ALLOWED_HOSTS = ['direct-parcel.up.railway.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['bluedart-sf.up.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'service',
     "corsheaders",
-    'paystack',
+   
 ]
 
 MIDDLEWARE = [
@@ -77,7 +77,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'directparcel.wsgi.application'
 
-CSRF_TRUSTED_ORIGINS = ['https://direct-parcel.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://bluedart-sf.up.railway.app']
 
 
 # Database
