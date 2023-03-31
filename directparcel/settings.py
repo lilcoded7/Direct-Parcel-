@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-p4b%5b_%j5+#n1b#2#lc=ymq@7%724*qwnsu+rx1@w*eq-i=2%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True 
 
-ALLOWED_HOSTS = ['bluedart-sf.up.railway.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['directparcel.up.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -77,7 +77,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'directparcel.wsgi.application'
 
-CSRF_TRUSTED_ORIGINS = ['https://bluedart-sf.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://directparcel.up.railway.app']
 
 
 # Database
@@ -88,9 +88,9 @@ DATABASES = {
         'ENGINE'   : 'django.db.backends.postgresql',
         'NAME'     : 'railway',
         'USER'     : 'postgres',
-        'PASSWORD' : 'OQuGZGLXxNLiY6hiHtF1',
-        'HOST'     : 'containers-us-west-95.railway.app',
-        'PORT'     : '5681',
+        'PASSWORD' : 'RypgNRTa51v6TrlZAsEY',
+        'HOST'     : 'containers-us-west-204.railway.app',
+        'PORT'     : '7997',
     }
 }
 
