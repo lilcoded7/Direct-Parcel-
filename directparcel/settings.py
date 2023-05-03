@@ -77,7 +77,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'directparcel.wsgi.application'
 
-CSRF_TRUSTED_ORIGINS = ['https://directparcel.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://directparcel.up.railway.app/']
 
 
 # Database
