@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-p4b%5b_%j5+#n1b#2#lc=ymq@7%724*qwnsu+rx1@w*eq-i=2%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True 
 
-ALLOWED_HOSTS = ['internationalpostghana.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['directparcel.up.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -77,8 +77,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'directparcel.wsgi.application'
 
-CSRF_TRUSTED_ORIGINS = ['https://internationalpostghana.com/']
-
+CSRF_TRUSTED_ORIGINS = ['https://directparcel.up.railway.app']
 
 
 # Database
@@ -89,9 +88,9 @@ DATABASES = {
         'ENGINE'   : 'django.db.backends.postgresql',
         'NAME'     : 'railway',
         'USER'     : 'postgres',
-        'PASSWORD' : 'NUyfQPCSqWtZ0mqZz5oX',
-        'HOST'     : 'containers-us-west-123.railway.app',
-        'PORT'     : '6220',
+        'PASSWORD' : 'ZdYwIhu8ii1G89fC7Ni9',
+        'HOST'     : 'containers-us-west-201.railway.app',
+        'PORT'     : '7789',
     }
 }
 
