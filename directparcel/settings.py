@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-p4b%5b_%j5+#n1b#2#lc=ymq@7%724*qwnsu+rx1@w*eq-i=2%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True 
 
-ALLOWED_HOSTS = ['directparcelghana.up.railway.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['directparcelghana.up.railway.app', 'internationalpostghana.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
